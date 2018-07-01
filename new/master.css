@@ -26,6 +26,8 @@
 
 nav {
     padding: 5px;
+    position: relative;
+ 
 }
 
 nav ul {
@@ -48,16 +50,18 @@ nav li {
 
     border-radius: 8px;
     background: #2020df;
+
 }
 
 .get:hover {
-    background: #122faa;
+    background-color: rgb(167, 165, 239);
 }
 
 .get a {
     font-weight: bold;
 
     color: white;
+
 }
 
 nav a {
@@ -66,6 +70,8 @@ nav a {
     text-decoration: none;
 
     color: #30333a;
+
+    transition: 0.4s ease;
 }
 
 nav li a:last-child {
@@ -75,24 +81,30 @@ nav li a:last-child {
 
     color: white;
     color: #30333a;
+
 }
 
 nav li a:hover {
     color: #2020df;
+    background: #E1E7DA;
+    padding: 5px;
+    border-radius: 10px 0px 10px 0px;
 }
 #drop{
     position: absolute;
     background: rgba(181, 184, 177, 0.2);
+
     border-radius: 0px 0px 20px 20px;
-    padding: 10px;
-    left: 480px;
-    width: 300px;
-    top: 70px;
-    height: 0px;
-    opacity: 0;
+    left: 50px;
+    width: 200px;
+    top: 50px;     
+    opacity: 0;                   
     overflow: hidden;
-    transition: .5s ease;
+    height: 0px;
+    transition: .3s ease;
+    
 }
+
 
 
 
