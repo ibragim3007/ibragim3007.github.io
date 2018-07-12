@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="master.css">
+    <title>Канкулятор для мойки</title>
+</head>
+
+<body>
+    <header>
+        Программа для подсчета денег на мойке
+    </header>
+    <div class="main">
+        <form>
+            <div class="yest_day">
+                <input type="number" placeholder="За вчерашний день(1)" id="yest_1">
+                <input type="number" placeholder="За вчерашний день(2)" id="yest_2">
+                <input type="number" placeholder="За вчерашний день(3)" id="yest_3">
+            </div>
+            <div class="to_day">
+                <input type="number" placeholder="Сегодня(1)" id="today_1">
+                <input type="number" placeholder="Сегодня(2)" id="today_2">
+                <input type="number" placeholder="Сегодня(3)" id="today_3">
+                <button type="reset" value="Очистить">Очистить</button>
+            </div>
+        </form>
+        <button onclick="sum()">Подсчитать</button>
+        <div class="main_answer">Ответ:
+            <div id="answer">...</div>
+        </div>
+    </div>
+    <div class="kup">
+        <input type="nuberver" placeholder="В курюрах" id="kup">
+        <br>
+        <button onclick="money()">Подсчитать</button>
+        <div class="main_monet">В монетах:
+            <div id="monet">...</div>
+        </div>
+    </div>
+    <script src="javaScript.js"></script>
+</body>
+
+</html>

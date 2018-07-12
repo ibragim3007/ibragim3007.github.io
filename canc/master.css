@@ -1,0 +1,77 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+header{
+	background: #597da3;
+	font-size: 42px;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-weight: 700;
+}
+
+html{
+	font-family: arial;
+	background: #edeef0;
+	color: #1A162A;
+}
+
+body{
+	
+}
+.main{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.yest_day{
+	margin-bottom: 20px;
+}
+input{
+	margin-left: 5px;
+	padding: 10px;
+	font-size: 24px;
+	border: 2px solid silver;	
+}
+input:active{
+	
+}
+
+button{
+	padding: 5px 2px;
+	color: #241E57;
+	background: white;
+	border-radius: 3px;
+	font-size: 24px;
+	margin-top: 10px;
+	transition: 0.2s ease;
+	margin-left: 5px;
+}
+button:hover{
+	background: #fdeef0;
+}
+button:active{
+	background: #E6A8D7;
+}
+.main_answer{
+	margin-left: 5px;
+	margin-top: 20px;
+	display: flex;
+	font-size: 28px;
+}
+#answer{
+	margin-left: 5px;
+}
+.kup{
+	margin-top: 60px;
+	margin-left: 15px;
+}
+.main_monet{
+	margin-left: 5px;
+	display: flex;
+	font-size: 28px;
+	margin-top: 20px;
+}
+#monet{
+margin-left: 5px;
+}

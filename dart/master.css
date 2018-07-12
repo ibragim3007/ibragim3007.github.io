@@ -1,0 +1,105 @@
+{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	box-sizing: border-box;
+	background: #eee;
+}
+html{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+.cont{
+	max-width: 1110px;
+	margin:auto;
+}
+li{
+	list-style: none;
+}	
+a{
+	text-decoration: none;
+}
+
+.header_top a{
+	font-size: 17px;
+	color: white;
+	font-weight: 500;
+}
+.header_top a:hover{
+	font-weight: 700;
+}
+.header_top{
+	padding-top: 50px;
+	}
+header{
+	background: url(BG.png) no-repeat top center / cover;
+}
+.header_top ul{
+	float: right;	
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	margin-right: 250px;
+	grid-gap: 50px;
+}
+
+.header_top img{
+	align-self: center;
+	margin-top: -13px;
+}
+.sign_up{
+	background: blue;
+	float: right;
+	clear: both;
+}
+.header_left h1{
+	margin-top: 170px;
+	text-transform: uppercase;
+	font-size: 55px;
+}
+.header_left p{
+	margin-top: 30px;
+	line-height: 30px;
+	font-size: 18px;
+}	
+.but{
+	margin-top: 40px;
+	display: flex;
+	justify-content: flex-start;
+	padding-bottom: 185px;
+}
+.buy button{
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+	border: none;
+	outline: none;
+	margin-right: 30px;
+	background: #061e37;
+	width: 10em;
+	height: 3em;
+	border-radius: 5px;
+}
+.free button{
+	color: #061e37;
+	text-transform: uppercase;
+	font-size: 16px;
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+	border: none;
+	outline: none;
+	margin-right: 30px;
+	background: white;
+	width: 10em;
+	height: 3em;
+	border-radius: 5px;
+}
+.easy h2{
+	font-size: 45px;
+	color:#061e37;
+	text-align: center;
+}
+
+
+
+
