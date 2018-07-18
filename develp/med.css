@@ -1,0 +1,163 @@
+
+@media screen and (max-width: 980px){
+	header a{
+	font-size: 18px;
+}
+header ul {
+	margin-left: 50px;
+}
+.text_web h1 {
+    font-size: 50px;
+    padding-top: 180px;
+    padding-bottom: 40px;
+}
+
+.text_web p {
+    font-size: 17px;
+    margin-bottom: 105px;
+}
+.text_web button {
+		width: 220px;
+    cursor: pointer;
+    padding: 17px 30px;
+    font-size: 19px;
+    margin-bottom: 95px;
+}
+
+.text_web button.hire_now {
+    margin-left: 20px;
+    padding: 18px 31px;
+}}
+
+
+@media screen and (max-width: 840px){
+			header ul{
+	font-size: 23px;
+	margin-right: 5px;
+	margin-left: 80px;
+}
+	header a{
+	font-size: 14px;
+	margin-right: 24px;
+
+}
+.text_web h1 {
+    font-size: 40px;
+    padding-top: 180px;
+    padding-bottom: 40px;
+}
+
+.text_web p {
+    font-size: 14px;
+    margin-bottom: 105px;
+}
+.text_web button {
+		width: 200px;
+    padding: 17px 30px;
+    font-size: 18px;
+    margin-bottom: 95px;
+}
+
+.text_web button.hire_now {
+    padding: 18px 31px;
+}
+
+
+
+@media screen and (max-width: 540px){
+	header ul{
+	font-size: 23px;
+	margin-right: 10px;
+	display: block;
+	position: relative;
+}
+.text_web h1 {
+    font-size: 30px;
+    padding-top: 180px;
+    padding-bottom: 40px;
+}
+
+.text_web p {
+    font-size: 13px;
+    margin-bottom: 105px;
+}
+.text_web button {
+		width: 180px;
+    cursor: pointer;
+    padding: 13px 26px;
+    font-size: 15px;
+    margin-bottom: 95px;
+}
+
+.text_web button.hire_now {
+    background: linear-gradient(0deg, #00897b, #00897b);
+
+
+    padding: 14px 27px;
+
+}
+.text_services h3{
+ 	padding-top: 130px;
+ 	font-size: 25px;
+
+
+}
+.text_services p{
+	margin-top: 23px;
+	margin-bottom: 110px;
+	font-size: 14px;
+}
+
+}
+.items h4{
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+.items p{
+    font-size: 13px;
+    padding: 0 20px 0 20px;
+    margin-bottom: 40px;
+}
+.items button{
+    padding:10px 13px;
+    font-size:25px;
+    margin-bottom: 35px; 
+}
+
+
+}
+
+
+
+@media screen and(max-width: 320px){
+		header ul{
+	font-size: 23px;
+	margin-right: 5px;
+	margin-left: 30px;
+}
+header ul li a{
+	font-size: 25px;
+}
+.text_web h1 {
+    font-size: 30px;
+    padding-top: 180px;
+    padding-bottom: 40px;
+}
+
+.text_web p {
+    font-size: 13px;
+    margin-bottom: 105px;
+}
+.text_web button {
+		width: 150px;
+    cursor: pointer;
+    padding: 13px 26px;
+    font-size: 20px;
+    margin-bottom: 135px;
+}
+
+.text_web button.hire_now {
+ padding: 14px 27px;
+}}
+
+}
