@@ -3,9 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name=viewport content="width=700">
+    <meta name=viewport content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="med.css">
-    <link rel="stylesheet" href="<link rel=" stylesheet " href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt " crossorigin="anonymous">
+    <link rel="stylesheet" href="<link rel=" stylesheet " href="https://use.fontawesome.com/releases/v5.1.0/css/all.css " integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt " crossorigin="anonymous ">
+    <link rel="stylesheet " href="https://use.fontawesome.com/releases/v5.1.1/css/all.css " integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ " crossorigin="anonymous ">
+
     <title>Document</title>
 </head>
 <body>
@@ -18,14 +22,17 @@
                     Your Logo
                 </div>
                 <nav>
-                    <ul>
+                    <ul class="not">
                         <li><a href="javascript://0"  onclick = "slowScroll( '#home')">Home</a></li>
-                        <li><a id="about_a " href="javascript://0" onclick = "slowScroll( '#about')">About</a></li>
-                        <li><a href="#"  href="javascript://0" onclick = "slowScroll( '#ser')">Servicing</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact us</a></li>
+                        <li><a href="javascript://0" onclick = "slowScroll( '#about')">About</a></li>
+                        <li><a href="javascript://0" onclick = "slowScroll( '#ser')">Servicing</a></li>
+                        <li><a href="javascript://0" onclick = "slowScroll( '#por')">Portfolio</a></li>
+                        <li><a href="javascript://0" onclick = "slowScroll( '#blog')">Blog</a></li>
+                        <li><a href="javascript://0" onclick = "slowScroll( '#cont')">Contact us</a></li>
                     </ul>
+            <div id="menu">
+                <a href="javascript://0"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
                 </nav>
             </div>
         </div>
@@ -35,10 +42,10 @@
             <div class="cont">
                 <h1>Web development project</h1>
                 <p>Very suitable to support all web development projects</p>
-                <button class="our_ser">our services</button>
+                <button href="javascript://0" onclick = "slowScroll( '#ser')" class="our_ser">our services</button>
                 <button class="hire_now">Hire is Now</button>
                 <div class="icon">
-                <a href="#"><i class="fas fa-angle-down"></i></a></div>
+                <a href="javascript://0" onclick = "slowScroll( '#about')"><i class="fas fa-angle-down"></i></a></div>
             </div>
         </div>
     </main>
@@ -50,12 +57,12 @@
             </div> 
             <div class="about_img">
               <div class="block_1">
-                <img src="about/about_1.png" alt=" ">
+                <img src="about/about_1.png" alt="">
                   <h3>Awesome Icons</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit, sed do eiusmod <br>tempor</p>
              </div>
                 <div class="block_1">
-                <img src="about/about_2.png " alt="">
+                <img src="about/about_2.png" alt=" ">
                   <h3>Awesome Icons</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit, sed do eiusmod <br>tempor</p>
               </div>
@@ -69,10 +76,8 @@
        </div>
        <div id="services">
           <div class="cont">
-
            <div class="text_services">
-
-               <h3  >Our Servisec</h3>
+               <h3 >Our Servisec</h3>
                   <div id="ser"></div>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
            </div>
@@ -85,46 +90,243 @@
                 <button id="button_1">Read more</button>
             </div>
             <div class="items" id="items_2">
-                <img src="serv_1.png" alt="icon" id="img_3">
-                <img src="serv_2.png" alt="icon" id="img_4">
-                <h4>Researh</h4>
+                <img src="serv_1.png" alt="icon " id="img_3">
+                <img src="serv_2.png" alt="icon " id="img_4">
+                <h4>Portfolio</h4>
                 <p>At vero eos et accusamus et iusto odio <br>dignissimos ducimus qui blanditiis prae <br>sentium brvoluptatum iti atque corrupti <br>quos.</p>
                 <button id="button_2">Read more</button>
             </div>
             <div class="items" id="items_3">
-                <img src="serv_1.png" alt="icon" id="img_5">
-                <img src="serv_2.png" alt="icon" id="img_6">
-                <h4>Researh</h4>
+                <img src="serv_1.png" alt="icon " id="img_5">
+                <img src="serv_2.png" alt="icon " id="img_6">
+                <h4>Documentation</h4>
                 <p>At vero eos et accusamus et iusto odio <br>dignissimos ducimus qui blanditiis prae <br>sentium brvoluptatum iti atque corrupti <br>quos.</p>
                 <button id="button_3">Read more</button>
             </div>
             <div class="items" id="items_4">
                 <img src="serv_1.png" alt="icon" id="img_7">
                 <img src="serv_2.png" alt="icon" id="img_8">
-                <h4>Researh</h4>
+                <h4>Development</h4>
                 <p>At vero eos et accusamus et iusto odio <br>dignissimos ducimus qui blanditiis prae <br>sentium brvoluptatum iti atque corrupti <br>quos.</p>
                 <button id="button_4">Read more</button>
             </div>
             <div class="items" id="items_5">
-                <img src="serv_1.png" alt="icon" id="img_9">
-                <img src="serv_2.png" alt="icon" id="img_10">
-                <h4>Researh</h4>
+                <img src="serv_1.png" alt="icon " id="img_9">
+                <img src="serv_2.png" alt="icon " id="img_10">
+                <h4>Design</h4>
                 <p>At vero eos et accusamus et iusto odio <br>dignissimos ducimus qui blanditiis prae <br>sentium brvoluptatum iti atque corrupti <br>quos.</p>
                 <button id="button_5">Read more</button>
             </div>
             <div class="items" id="items_6">
                 <img src="serv_1.png" alt="icon" id="img_11">
                 <img src="serv_2.png" alt="icon" id="img_12">
-                <h4>Researh</h4>
+                <h4>Support</h4>
                 <p>At vero eos et accusamus et iusto odio <br>dignissimos ducimus qui blanditiis prae <br>sentium brvoluptatum iti atque corrupti <br>quos.</p>
                 <button id="button_6">Read more</button>
             </div>
           </div>
         </div>
       </div> 
+      <div class="cont">
+          <div class="works " id="por">
+              <div class="works_text">
+                  <h2>Latest Works</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+              </div>
+              <div class="button_work">
+                <button>All</button>
+                <button>web design</button>
+                <button>ul/ux design</button>
+                <button>mockups</button>
+              </div>
+              <div class="img_work ">
+                  <img src="works/works_1.jpg" alt="img">
+                  <img src="works/works_2.jpg" alt="img">
+                  <img src="works/works_3.png" alt="img">
+                  <img src="works/works_4.png" alt="img">
+                  <img src="works/works_5.png" alt="img">
+                  <img src="works/works_6.jpg" alt="img">
+              </div>
+              <div class="button_work">
+                  <button class="view">VIEW ALL</button>
+              </div>
+          </div>
+      </div>
+      <div class="pricing">
+        <div class="cont">
+          <div class="pricing_text">
+            <h2>Pricing Plan</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br>ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+          </div>
+          <div class="expensive">
+        <div class="ex_block ">
+        <div class="block_with_ex">
+                <div class="text_in_block">
+                    <span>Free Trail</span>
+                    <p>$00 per mounth</p>
+                </div> 
+        </div>
+            <p>30 Free Trail</p>
+            <p>5 Free Projects</p>
+            <p>PHP 5 Enabled</p>
+            <p>24/7 support</p>
+            <button class="order ">Order Now</button>
+        </div>
+               <div class="ex_block">
+                <div class="block_with_ex">
+                    <div class="text_in_block">
+                        <p>Free Trail <br>
+                        $50 per mounth</p>
+                    </div> 
+                </div>
+                    <p>30 Free Trail</p>
+                    <p>5 Free Projects</p>
+                    <p>PHP 5 Enabled</p>
+                    <p>24/7 support</p>
+                    <button class="order">Order Now</button>
+              </div>
+               <div class="ex_block">
+                <div class="block_with_ex">
+                    <div class="text_in_block">
+                        <span>Free Trail</span>
+                        <p>$100 per mounth</p>
+                    </div> 
+                 </div>
+                    <p>30 Free Trail</p>
+                    <p>5 Free Projects</p>
+                    <p>PHP 5 Enabled</p>
+                    <p>24/7 support</p>
+                    <button class="order">Order Now</button>
+              </div>
+          </div>
+       </div>
+     </div>
+     <div class="cont">
+     <div class="our_team">
+       <div class="our_team_text">
+         <h2>Our Team Member</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br>ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+       </div>
+    <div class="avatars">
+         <div class="avatar_sot">
+           <img src="avatar/avatar_1.jpg" alt="avatar" style = "width: 320px">
+           <h3>John Doe</h3>
+           <p>General Manager</p>
+         <div class="social">
+             <ul>
+                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                 <li><a href="#"><i class="fas fa-comments"></i></a></li>
+                 <li><a href="#"><i class="fab fa-vk"></i></a></li>
+             </ul>
+         </div>
+       </div>
+       <div class="avatar_sot">
+           <img  src="avatar/avatar_2.jpg" alt="avatar" style = "width: 320px">
+           <h3>John Doe</h3>
+           <p>General Manager</p>
+         <div class="social">
+             <ul>
+                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                 <li><a href="#"><i class="fas fa-comments"></i></a></li>
+                 <li><a href="#"><i class="fab fa-vk"></i></a></li>
+             </ul>
+         </div>
+      </div>
+      <div class="avatar_sot">
+           <img src="avatar/avatar_3.jpg" alt="avatar" style = "width: 320px">
+           <h3>John Doe</h3>
+           <p>General Manager</p>
+         <div class="social">
+         <ul>
+             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+             <li><a href="#"><i class="fas fa-comments"></i></a></li>
+             <li><a href="#"><i class="fab fa-vk"></i></a></li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
    </div>
+   <div class="blog">
+    <div class="cont">
+       <div class="blog_text">
+                <div id="blog"></div>
+           <h2>Blog</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+       </div>
+       <div class="block_main">
+           <div class="block_main_1">
+            <div class="img_blog">
+               <img src="blog/blog_1.jpg" alt="blog">
+           </div>
+               <div class="block_text">
+               <h1>SEO Quis Vestibulum</h1>
+               <p>Dolore magna aliqua. Ut enim ad minim veniam, quis <br>nostrud exercitation ullamco laboris nisi <br>ut aliquip ex ea commodo consequat...</p>
+               </div>
+           </div>
+              <div class="block_main_1">
+                <div class="block_text">
+               <h1>SEO Quis Vestibulum</h1>
+               <p>Dolore magna aliqua. Ut enim ad minim veniam, quis <br>nostrud exercitation ullamco laboris nisi <br>ut aliquip ex ea commodo consequat...</p>
+               </div>
+            <div class="img_blog">
+               <img src="blog/blog_2.jpg" alt="blog">
+           </div>
+           </div>
+              <div class="block_main_1">
+            <div class="img_blog">
+               <img src="blog/block_3.jpg" alt="blog">
+           </div>
+               <div class="block_text">
+               <h1>SEO Quis Vestibulum</h1>
+               <p>Dolore magna aliqua. Ut enim ad minim veniam, quis <br>nostrud exercitation ullamco laboris nisi <br>ut aliquip ex ea commodo consequat...</p>
+               </div>
+           </div>
+       </div>
+      <div class="asdasd">
+       <button class="order">More view</button>
+      </div>
+    </div>
+   </div>
+   <footer>
+        <div class="cont">
+            <div class="footer_text">
+                <h2 id="cont">Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            </div>
+            <div class="locaion">
+                <div class="location_block">
+                    <img src="location/location_1.png" alt="loc">
+                    <p>Nobinagar savar,Dhaka Ban- <br>gladesh</p>
+                </div>
+                <div class="location_block">
+                    <img src="location/location_2.png" alt="loc">
+                    <p>+8801743331996 <br>
+                    +8801928737807</p>
+                </div>
+                <div class="location_block">
+                    <img src="location/location_3.png" alt="loc">
+                    <p>quickmasud@gmail.com <br>
+                    quickmasud@yahoo.com</p>
+                </div>
+            </div>
+        <form>
+            <input type="text" placeholder="Your NAME">          
+            <input type="text" placeholder="Your Email"> <br>             
+            <textarea name="comm" cols="53" rows="7" placeholder="Write Massage"></textarea><br>
+           <div class="send"><button>Send</button></div>
+        </form>
+        </div>
+   </footer>
+<div class="footer_last">
+    <p>All rights Reserved © 2017</p>
+</div>
 </body>
-<script src="jQuery.js "></script>
-<script src="script.js "></script>
+<script src="jQuery.js"></script>
+<script src="script.js"></script>
 
 </html>
