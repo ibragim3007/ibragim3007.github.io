@@ -151,8 +151,115 @@ header a{
     font-size: 13px;
     margin-bottom: 50px;
 }
+.img_work{
+	display: grid;
+	grid-template-columns: repeat(2, 160px);
+	justify-content: center;
+	grid-gap: 10px;
+}
+.block_1{
+	margin-bottom: 40px;
+}
+.text_services{
+	margin-bottom: 0px;
+}
+.item{
+	display: grid;
+	grid-template-columns: repeat(2, 220px);
+}
+.items h4{
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+.items p{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.items button{
+	padding: 10px 16px;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.works_text p{
+	margin-bottom:30px;
+}
+.button_work{
+	margin-bottom: 10px;
+}
+.button_work button{
+	font-size: 16px;
+	padding: 10px 9px;
+}
+.view{
+	margin-top: 40px;
+}
+.pricing_text{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.expensive{
+	padding-bottom: 60px;
+}
+.ex_block{
+	width: 80%;
+	margin:auto;
 
+}
+.ex_block button{
+	padding: 10px 14px;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.our_team_text{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.avatar_sot h3{
+	margin-top: 10px;
+}
+.avatar_sot p{
+	margin-bottom: 20px;
+}
+.social{
+	margin-bottom: 50px;
+}
+.avatars{
+	margin-bottom: 20px;
+}
+.blog_text{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.asdasd{
+	margin-top: 0px;
+}
+.asdasd button{
+	font-size: 16px;
+	padding: 10px 14px;
+}
+.block_main_1 p{
+	margin-bottom: 10px;
+}
+.footer_text{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
 
+.locaion{
+	display: grid;
+	grid-template-columns: repeat(3, minmax(60px, 100px));
+	grid-gap: 20px;
+}
+.locaion img{
+	width: 75%;
+}
+.location_block {
+	margin-bottom: 30px;
+}
+.location_block p{
+	font-size: 11px;
+}
 }
 @media (max-width: 510px){
 	header ul{
@@ -171,6 +278,8 @@ header a{
 	.locaion{
     justify-content: center;
 }
+
+
 
 }
 
@@ -222,7 +331,51 @@ header ul li a{
 
 }
 @media (max-width: 360px){
-	form textarea{
+
+
+.block_1{
+	margin-bottom: 40px;
+}
+.text_services{
+	margin-bottom: 0px;
+}
+.item{
+	display: grid;
+	grid-template-columns: repeat(2, 160px);
+}
+.items h4{
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+.items p{
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+.items button{
+	padding: 5px 8px;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.button_work{
+	margin-bottom: 10px;
+	display: grid;
+	grid-template-columns: repeat(2,auto);
+}
+.button_work button{
+	font-size: 16px;
+	padding: 10px 9px;
+}
+.img_work{
+	display: grid;
+	grid-template-columns: repeat(2, 160px);
+}
+.button_work{
+	text-align: center;
+}
+
+
+form textarea{
 
     margin-left: 0px;
 
@@ -236,4 +389,66 @@ form input{
 	margin-left: 0px;
 }
 }
+
+
+@media (max-width: 375px){
+
+
+.block_1{
+	margin-bottom: 40px;
+}
+.text_services{
+	margin-bottom: 0px;
+}
+.item{
+	display: grid;
+	grid-template-columns: repeat(2, 160px);
+}
+.items h4{
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+.items p{
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+.items button{
+	padding: 5px 8px;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.button_work{
+	margin-bottom: 10px;
+	display: grid;
+	grid-template-columns: repeat(2,auto);
+}
+.button_work button{
+	font-size: 16px;
+	padding: 10px 9px;
+}
+.img_work{
+	display: grid;
+	grid-template-columns: repeat(2, 160px);
+}
+.button_work{
+	text-align: center;
+}
+
+
+form textarea{
+
+    margin-left: 0px;
+
+}
+form button{
+
+    margin-right: 0px;
+
+}
+form input{
+	margin-left: 0px;
+}
+}
+
 

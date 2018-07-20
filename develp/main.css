@@ -571,6 +571,10 @@ form button{
     text-transform: uppercase;
     margin-right: 13px;
     margin-bottom: 100px;
+    cursor: pointer;
+}
+form button:hover{
+    background: #ccc;
 }
 .footer_last{
     text-align: center;
