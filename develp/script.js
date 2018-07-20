@@ -171,3 +171,7 @@ $("#menu a i").click(function(){
 	}
 });
 
+
+var but_1 = $("#but_view").click(function(){
+	$(".showImg").slideDown(1000);
+});
