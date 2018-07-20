@@ -1,0 +1,461 @@
+
+@media screen and (max-width: 980px){
+	.logo_text{
+		font-size: 20px;
+	}
+	header a{
+	font-size: 25px;
+}
+header ul {
+	padding-left: 140px;
+}
+.text_web h1 {
+    font-size: 50px;
+    padding-top: 180px;
+    padding-bottom: 40px;
+}
+
+.text_web p {
+    font-size: 17px;
+    margin-bottom: 105px;
+}
+.text_web button {
+		width: 220px;
+    cursor: pointer;
+    padding: 17px 30px;
+    font-size: 19px;
+    margin-bottom: 95px;
+}
+
+.text_web button.hire_now {
+    margin-left: 20px;
+    padding: 18px 31px;
+}}
+
+
+@media screen and (max-width: 840px){
+			header ul{
+	font-size: 23px;
+
+	padding-left: 60px;
+
+}
+	header a{
+	font-size: 18px;
+	margin-right: 24px;
+
+}
+.text_web h1 {
+    font-size: 40px;
+    padding-top: 180px;
+    padding-bottom: 40px;
+}
+
+.text_web p {
+    font-size: 14px;
+    margin-bottom: 105px;
+}
+.text_web button {
+		width: 200px;
+    padding: 17px 30px;
+    font-size: 18px;
+    margin-bottom: 95px;
+}
+
+.text_web button.hire_now {
+    padding: 18px 31px;
+}
+.showImg{
+		grid-template-columns: repeat(2,minmax(130px, 1fr));
+	}
+
+
+@media screen and (max-width: 760px){
+.logo_text{
+		display: none;
+}
+}
+
+
+@media screen and (max-width: 540px){
+.showImg{
+		display: none;
+		grid-template-columns: repeat(2,minmax(100px, 1fr));
+	}
+
+#menu{
+	display: none;
+}
+
+header ul {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    z-index: 10;
+}
+header a{
+	font-size: 14px;
+}
+.text_web h1 {
+    font-size: 30px;
+    padding-top: 180px;
+    padding-bottom: 40px;
+}
+
+.text_web p {
+    font-size: 13px;
+    margin-bottom: 105px;
+}
+.text_web button {
+		width: 180px;
+    cursor: pointer;
+    padding: 13px 26px;
+    font-size: 15px;
+    margin-bottom: 95px;
+}
+
+.text_web button.hire_now {
+    background: linear-gradient(0deg, #00897b, #00897b);
+
+
+    padding: 14px 27px;
+
+}
+.text_services h3{
+ 	padding-top: 130px;
+ 	font-size: 25px;
+
+
+}
+.text_services p{
+	margin-top: 23px;
+	margin-bottom: 110px;
+	font-size: 14px;
+}
+
+}
+.items h4{
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+.items p{
+    font-size: 13px;
+    padding: 0 20px 0 20px;
+    margin-bottom: 40px;
+}
+.items button{
+    padding:10px 13px;
+    font-size:25px;
+    margin-bottom: 35px; 
+}
+.block_main_1 h1{
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.block_main_1 p{
+    margin-left: 25px;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+.img_work{
+	display: grid;
+	grid-template-columns: repeat(2, 160px);
+	justify-content: center;
+	grid-gap: 10px;
+}
+.block_1{
+	margin-bottom: 40px;
+}
+.text_services{
+	margin-bottom: 0px;
+}
+.item{
+	display: grid;
+	grid-template-columns: repeat(1, 90%);
+}
+.items h4{
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+.items p{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.items button{
+	padding: 10px 16px;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.works_text p{
+	margin-bottom:30px;
+}
+.button_work{
+	margin-bottom: 10px;
+}
+.button_work button{
+	font-size: 16px;
+	padding: 10px 9px;
+}
+.view{
+	margin-top: 40px;
+}
+.pricing_text{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.expensive{
+	padding-bottom: 60px;
+}
+.ex_block{
+	width: 80%;
+	margin:auto;
+
+}
+.ex_block button{
+	padding: 10px 14px;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.our_team_text{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.avatar_sot h3{
+	margin-top: 10px;
+}
+.avatar_sot p{
+	margin-bottom: 20px;
+}
+.social{
+	margin-bottom: 50px;
+}
+.avatars{
+	margin-bottom: 20px;
+}
+.blog_text{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.asdasd{
+	margin-top: 0px;
+}
+.asdasd button{
+	font-size: 16px;
+	padding: 10px 14px;
+}
+.block_main_1 p{
+	margin-bottom: 10px;
+}
+.footer_text{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.locaion{
+	display: grid;
+	grid-template-columns: repeat(3, minmax(60px, 100px));
+	grid-gap: 20px;
+}
+.locaion img{
+	width: 75%;
+}
+.location_block {
+	margin-bottom: 30px;
+}
+.location_block p{
+	font-size: 11px;
+}
+}
+@media (max-width: 510px){
+	header ul{
+		display: none;
+	}
+	header ul.open{
+		display: block;
+	}
+	#menu{
+		display: block;
+	}
+	#menu a i{
+		display: block;
+		font-size: 20px;
+	}
+	.locaion{
+    justify-content: center;
+}
+}
+
+
+@media (max-width: 320px){
+
+header ul li a{
+	font-size: 15px;
+}
+/*#menu a i{
+	display: block;
+}*/
+.text_web h1 {
+    font-size: 25px;
+    padding-top: 180px;
+    padding-bottom: 40px;
+}
+
+.text_web p {
+    font-size: 11px;
+    margin-bottom: 105px;
+}
+.text_web button {
+		width: 150px;
+    cursor: pointer;
+    padding: 13px 26px;
+    font-size: 20px;
+    margin-bottom: 135px;
+}
+
+.text_web button.hire_now {
+ padding: 14px 27px;
+}
+.block_main_1 h1{
+    margin-top: 0px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.block_main_1 p{
+    margin-left: 25px;
+    font-size: 11px;
+    margin-bottom: 100px;
+}
+.locaion{
+    justify-content: center;
+}
+
+}
+@media (max-width: 360px){
+
+
+.block_1{
+	margin-bottom: 40px;
+}
+.text_services{
+	margin-bottom: 0px;
+}
+.item{
+	display: grid;
+	grid-template-columns: repeat(2, 160px);
+}
+.items h4{
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+.items p{
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+.items button{
+	padding: 5px 8px;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.button_work{
+	margin-bottom: 10px;
+	display: grid;
+	grid-template-columns: repeat(2,auto);
+}
+.button_work button{
+	font-size: 16px;
+	padding: 10px 9px;
+}
+.img_work{
+	display: grid;
+	grid-template-columns: repeat(2, 160px);
+}
+.button_work{
+	text-align: center;
+}
+
+
+form textarea{
+    margin-left: 0px;
+}
+form button{
+    margin-right: 0px;
+}
+form input{
+	margin-left: 0px;
+}
+}
+
+
+@media (max-width: 375px){
+
+
+.block_1{
+	margin-bottom: 40px;
+}
+.text_services{
+	margin-bottom: 0px;
+}
+.item{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+}
+.items h4{
+	font-size: 19px;
+	margin-bottom: 8px;
+}
+.items p{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.items button{
+	padding: 8px 13px;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.button_work{
+	margin-bottom: 10px;
+	display: grid;
+	grid-template-columns: repeat(2,auto);
+}
+.button_work button{
+	font-size: 16px;
+	padding: 10px 9px;
+}
+.img_work{
+	display: grid;
+	grid-template-columns: repeat(1, 160px);
+}
+.button_work{
+	text-align: center;
+}
+
+
+form textarea{
+
+    margin-left: 0px;
+
+}
+form button{
+
+    margin-right: 0px;
+
+}
+form input{
+	margin-left: 0px;
+}
+}
+@media (max-width: 640px){
+	form textarea{
+		margin-left: 0px
+	}
+}
+
+
