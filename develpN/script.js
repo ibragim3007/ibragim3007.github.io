@@ -1,5 +1,5 @@
 function slowScroll(id) {
-    var offset = 130;
+    var offset = 160;
     $('html, body').animate({
         scrollTop: $(id).offset().top - offset
     }, 750);
