@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+
+.ascii-logo {
+	font-size: 20px;
+}
+
+h1 {
+	text-shadow: 1px 1px 2px black;
+	color: #FFF;
+	font-family: 'Source Sans Pro';
+    font-size: 48px;
+	text-shadow: 
+		-0   -4px 0   #000000,
+		 0   -4px 0   #000000,
+}
+/*добавил для центровки */
+.infobox_center{
+	display: grid;
+	grid-template-rows: repeat(3,auto);
+	margin-top: 20px;
+}
+
+.infobox {
+	grid-area: "infobox";
+	height: 200px;
+	min-width: 600px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	padding: 1px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.2);
+	transition: background-color 2s;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+span.pre {
+	font-family: monospace;
+	font-size: 20px;
+
+}
+* {
+    margin: auto;
+}
+
+body {
+	text-shadow: 1px 1px 2px black;
+	color: white;
+    text-align: center;
+    font-family: 'Source Sans Prot', cursive;
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+	text-shadow: 1px 1px 2px black;
+	color: #FFF;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.separator {
+	padding: 100px;
+	text-align: center;
+}
+
+a {
+	text-shadow: 1px 1px 2px black;
+	color: white;
+}
+
+.bg1 { background-image: url(img/bg1.jpg) !important; } 
+.bg2 { background-image: url(img/bg2.jpg) !important; } 
+.bg3 { background-image: url(img/bg3.jpg) !important; } 
+.bg4 { background-image: url(img/bg4.jpg) !important; } 
+.bg5 { background-image: url(img/bg5.jpg) !important; }
+.bg6 { background-image: url(img/bg6.jpg) !important; } 
+.bg7 { background-image: url(img/bg7.jpg) !important; } 
+.bg8 { background-image: url(img/bg8.jpg) !important; } 
+.bg9 { background-image: url(img/bg9.jpg) !important; } 
+.bg10 { background-image: url(img/bg10.jpg) !important; }
+.bg11 { background-image: url(img/bg11.jpg) !important; } 
+.bg12 { background-image: url(img/bg12.jpg) !important; } 
+.bg13 { background-image: url(img/bg13.jpg) !important; } 
+.bg14 { background-image: url(img/bg14.jpg) !important; } 
+.bg15 { background-image: url(img/bg15.jpg) !important; }
+.bg16 { background-image: url(img/bg16.jpg) !important; } 
+.bg17 { background-image: url(img/bg17.jpg) !important; } 
+.bg18 { background-image: url(img/bg18.jpg) !important; } 
+.bg19 { background-image: url(img/bg19.jpg) !important; } 
+.bg20 { background-image: url(img/bg20.jpg) !important; }
+.bg21 { background-image: url(img/bg21.jpg) !important; } 
+.bg22 { background-image: url(img/bg22.jpg) !important; } 
+.bg23 { background-image: url(img/bg23.jpg) !important; } 
+.bg24 { background-image: url(img/bg24.jpg) !important; } 
+.bg25 { background-image: url(img/bg25.jpg) !important; }
+.bg26 { background-image: url(img/bg26.jpg) !important; } 
+.bg27 { background-image: url(img/bg27.jpg) !important; } 
+.bg28 { background-image: url(img/bg28.jpg) !important; } 
+.bg29 { background-image: url(img/bg29.jpg) !important; } 
+.bg30 { background-image: url(img/bg30.jpg) !important; }
+
+.bg{
+	margin: 0, auto;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background: url('img/bg1.jpg') fixed center / cover;
+	position: fixed;
+}
+
+/* создание двух блоков слева и справа */
+
+.max-width-content{
+
+}
+
+.content{
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-gap: 20px;
+	justify-content: center;
+}
+.play-list-music{
+
+
+
+	order: -1;
+	height: 200px;
+	width: 180px;
+	overflow: auto;
+	background: rgba(255, 255, 255, 0.2);
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	grid-area: "list";
+}
+.play-list-music h6{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	padding: 1px;
+	text-align: center;
+}
+.play-list-music p{
+	cursor: pointer;
+	text-align: left;
+	padding-left: 10px;
+	padding-bottom: 2px;
+	padding-top: 5px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	transition: 0.2s ease;
+}
+.play-list-music p:hover{
+	background: rgba(255, 255, 255, 0.45);
+}
+.vote{
+
+
+
+	position: relative;
+	overflow: auto;
+	height: 200px;
+	width: 180px;
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	grid-area: "vote";
+}
+.vote h6{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	padding: 1px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.vote p{
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 2px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	transition: 0.2s ease;
+}
+.vote p:hover{
+	background: rgba(255, 255, 255, 0.45);
+}
+.vote button{
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-shadow: 1px 1px 2px black;
+	margin-top: 10px;
+	width: 100%;
+	height: 25px;
+	background: none;
+	color: white;
+	font-size: 16px;
+	border: 2px solid rgba(255, 255, 255, 0.6);
+	outline: none;
+	transition: 0.2s ease;
+	margin-bottom: 2px;
+}
+.vote button:hover{
+	background: rgba(255, 255, 255, 0.25);
+}
+
+@media(max-width: 1000px){
+	.content{
+		grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+	}
+	.separator{
+
+	}
+	.infobox{
+		min-width: 380px;
+	}
+}
+@media(max-width: 720px){
+	.content{
+		grid-template: repeat(3,1fr) / repeat(2,1fr);
+		justify-content: center;
+	}
+	.play-list-music{
+		order: 0;
+	}
+	.ascii-logo{
+		font-size: 15px;
+	}
+	.separator{
+		padding: 10px;
+	}
+	.infobox{
+		grid-column: 1/-1;
+		font-size: 18px;
+	}
+}
+@media(max-width: 480px){
+	.content{
+		font-size: 16px;
+		justify-content: center;
+	}
+	.infobox{
+		min-width: 350px;
+	}
+	.ascii-logo{
+		font-size: 10px;
+	}
+	.separator{
+		padding: 10px;
+	}
+}
+@media(max-width: 400px){
+	.ascii-logo{
+		
+	}
+	.content{
+		font-size: 14px;
+		justify-content: center;
+		grid-gap: 10px;
+	}
+	.play-list-music{
+		width: 140px;
+	}
+	.vote{
+		width: 140px;
+	}
+	.infobox{
+		min-width: 100px;
+		width: 300px;
+	}
+	.infobox_center{
+		justify-content: center;
+	}
+
+	.play-list-music{
+		width: 150px;
+	}
+	.vote{
+		width: 150px;
+	}
+
+}
+@media(max-width: 320px){
+
+}

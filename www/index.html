@@ -1,0 +1,121 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="yandex-verification" content="2471e0588ed8f10d "/>
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
+    <title>[ asylum, øne ]</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="lib/mediaelement/mediaelement-and-player.js"></script>
+    <script src='index.js'></script>
+    <link rel="stylesheet" href="lib/mediaelement/mediaelementplayer.css" media="screen">
+</head>
+ <body>
+	<div class="bg" id="bg"></div>
+    <div class="max-width-content">
+	<div class="separator"> </div>
+	<div style=" margin: 0, auto">
+	<pre class='ascii-logo'>    _              _                                   
+   / \   ___ _   _| |_   _ _ __ ___    ___  _ __   ___ 
+  / _ \ / __| | | | | | | | '_ ` _ \  / _ \| '_ \ / _ \
+ / ___ \\__ \ |_| | | |_| | | | | | || (_) | | | |  __/
+/_/   \_\___/\__, |_|\__,_|_| |_| |_(_)___/|_| |_|\___|
+             |___/                                     
+</pre>
+<center>
+<script>
+    $(document).ready(function() {
+        $('#audio-player').mediaelementplayer({
+            alwaysShowControls: true,
+            features: ['playpause','volume','progress', 'current']
+        });
+    });
+</script>
+<div class="audio-player">
+</div>
+         <div class="content">
+    
+<div class="infobox">
+    <div class="infobox_center">
+
+   <div class="song_play">
+    <audio id="audio-player"src="https://radioadmin.asylum.one/radio.mp3" type="audio/mpeg" controls="controls"></audio>
+   </div>
+   <div class="info_mus">
+    <span id="song-artist"></span  behavior="" > - <span id="song-title"></span> <br>
+<!--    Server: <span id="server-title"></span> <br> -->
+    Listeners: <span id="listeners"></span> <br>
+    Peak: <span id="listener_peak"></span> <br>
+   </div> 
+   <div class="media_social">
+    <a href="/radio.mp3.m3u" target="_blank">M3U</a> 
+    <a href="/radio.mp3.xspf" target="_blank">XSPF</a> 
+    <a href="https://vk.com/asylum_one" target="_blank">VK</a> 
+    <a href="https://t.me/asylum_one" target="_blank">TG</a> 
+   </div> 
+    </div>
+</div>
+
+
+            <div class="play-list-music">
+                <h6>Play list</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                <p>music_2</p>
+                <p>music_3</p>
+                <p>music_4</p>
+                <p>5.Lorem ipsum dolor.</p>
+                <p>music_6</p>
+                <p>music_7</p>
+                <p>music_8</p>
+                <p>music_9</p>
+                <p>music_10</p>
+            </div>
+     
+        <div class="vote">
+            <h6>Vote per next song</h6>
+            <p><label for="mus_1"><input type="radio" id="mus_1" name="mus">Music_1</label><br></p>
+            <p><label for="mus_2"><input type="radio" id="mus_2" name="mus">Music_2</label><br></p>
+            <p><label for="mus_3"><input type="radio" id="mus_3" name="mus">Music_3</label><br></p>
+            <p><label for="mus_4"><input type="radio" id="mus_4" name="mus">Music_4</label><br></p>
+            <button>Vote</button>
+        </div> 
+        </div>
+
+ </div>
+</center>
+<script>
+var timeout = 3; 
+function getStats(){
+  $.ajax({
+    url: "https://radioadmin.asylum.one/status-json.xsl",
+    success: function( response ) {
+        $('#song-artist').text(response.icestats.source.artist)
+        $('#song-title').text(response.icestats.source.title)
+//        $('#server-title').text(response.icestats.source.server_name)
+        $('#listener_peak').text(response.icestats.source.listener_peak)
+        $('#listeners').text(response.icestats.source.listeners)
+        document.title = (response.icestats.source.artist || 'Unknown') + ' - ' + (response.icestats.source.title || 'Unknown') 
+    }
+  });
+}
+getStats();
+setInterval(getStats, timeout * 1000);
+</script>
+	<div style=" margin: 0, auto">
+	</div>	     
+    <script type="text/javascript">
+    var date = new Date();
+            var hour = date.getHours();
+            var bgpath = "img/";
+            var bg = [ 'bg1', 'bg2', 'bg3', 'bg4', 'bg5', 'bg6', 'bg7', 'bg8', 'bg9', 'bg10', 'bg11', 'bg12', 'bg13', 'bg14', 'bg15', 'bg16', 'bg17', 'bg18', 'bg19', 'bg20', 'bg21', 'bg22', 'bg23', 'bg24', 'bg25', 'bg26', 'bg27', 'bg28', 'bg29', ];
+            var bg = bg[Math.floor(Math.random() * bg.length)];
+            document.querySelector('.bg').classList.add(bg);
+            bgpath += bg;
+            var image = document.createElement("img");
+            image.id = "bgimg";
+            image.src = bgpath;
+	</script>
+ </body>
+    
+</html>
