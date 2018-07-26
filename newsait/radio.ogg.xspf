@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" version="1">
+  <title/>
+  <creator/>
+  <trackList>
+    <track>
+      <location>http://radioadmin.asylum.one/radio.ogg</location>
+      <creator>Blue123</creator>
+      <title>Caged Heart</title>
+      <annotation>Stream Title: Asylum.one
+Stream Description: Радио asylum.one
+Content Type:application/ogg
+Quality: 5.00
+Current Listeners: 1
+Peak Listeners: 4
+Stream Genre: various</annotation>
+    </track>
+  </trackList>
+</playlist>
